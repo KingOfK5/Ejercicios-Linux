@@ -45,7 +45,7 @@ directorio PRUEBA.
 
 19. Copiar mensaje en dir1, dir2 y dir3.
 
-Comprobar el ejercicio anterior mediante un solo comando. 
+19.1. Comprobar el ejercicio anterior mediante un solo comando. 
 
 20. Copiar los archivos del directorio rc.d que se encuentra en /etc al directorio 
 dir31. 
