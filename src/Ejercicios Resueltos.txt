@@ -1,39 +1,39 @@
 Ejercicios comandos Linux
 
-1. ls /bin
+1. ls /bin ✔️
 
-2. ls /tmp
+2. ls /tmp ✔️
 
-3. ls /etc/t* -r (el * engloba a todas las letras que esten detrás y el -r invierte el orden)
+3. ls /etc/t* -r (el * engloba a todas las letras que esten detrás y el -r invierte el orden) ✔️
 
-4. ls /dev tty?? (las dos ?? representan los 2 caracteres que faltan?
+4. ls /dev tty?? (las dos ?? representan los 2 caracteres que faltan? ✔️
 
 5. ls /dev tty*[1-4] (englobamos todos los archivos que empiezan por tty con la * y luego le
-decimos que busque también los que acaben entre 1-4)
+decimos que busque también los que acaben entre 1-4) ✔️
 
 6. ls /dev/t*c1 (con la * englobamos todos los archivos que empiezan por t y cuando ponemos
-c1 atras, es para indicarle que nos diga los que acaban por c1)
+c1 atras, es para indicarle que nos diga los que acaban por c1) ✔️
 
-7. ls -a / (con el -a estamos indicando que nos muestre todos los directorios)
+7. ls -a / (con el -a estamos indicando que nos muestre todos los directorios) ✔️
 
 8. ls -d /etc [^t]* (con el [^t]* estamos diciendo que no nos enseñe ningun archivo que empiece
-por t y englobandolo con *)
+por t y englobandolo con *) ✔️
 
-9. ls -R /usr (con -R le indicamos que enseñe todos los subdirectorios)
+9. ls -R /usr (con -R le indicamos que enseñe todos los subdirectorios) ✔️
 
-10. cd /tmp ; mkdir PRUEBA
+10. cd /tmp ; mkdir PRUEBA ✔️
 
-11. pwd
+11. pwd ✔️
 
-12. date
+12. date ✔️
 
-13. cd /home
+13. cd /home ✔️
 
-14. pwd
+14. pwd ✔️
 
-15. ls /home -i (con -i hacemos que los directorios salgan con su numero de inodo)
+15. ls /home -i (con -i hacemos que los directorios salgan con su numero de inodo) ✔️
 
-16. sudo rm -rf /tmp/PRUEBA
+16. sudo rm -rf /tmp/PRUEBA/ ✔️
 
 
 17. cd /tmp/PRUEBA
@@ -44,7 +44,7 @@ por t y englobandolo con *)
     cd /tmp/PRUEBA/dir3
     sudo mkdir dir31
     cd /tmp/PRUEBA/dir3/dir31
-    sudo mkdir dir311 ; dir312
+    sudo mkdir dir311 ; dir312 ✔️
 
 18. sudo cp /etc/motd &gt; ./PRUEBA mensaje
 
